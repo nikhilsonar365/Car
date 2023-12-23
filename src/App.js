@@ -15,7 +15,7 @@ const App =()=>{
         <>
             <Router>
                 <Routes>
-                    <Route exact path = 'https://nikhilsonar365.github.io/Car/' element={<Login />}></Route>
+                    <Route exact path = '/' element={<Login />}></Route>
                     <Route exact path="/adduser" element={<AddUser />}></Route>
                     <Route exact path="/carsinfo" element={<CarsPage />}></Route>
                     <Route exact path="/history" element={<History />}></Route>
