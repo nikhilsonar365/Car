@@ -10,7 +10,7 @@ import Update from "./AllPages/Update";
 import UserPage from "./AllPages/UsersPage";
 import Vehicles from "./AllPages/Vehicles";
 
-const App =()=>{
+function App () {
     return(
         <>
             <Router>
